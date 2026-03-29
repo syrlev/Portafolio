@@ -4,7 +4,7 @@ Este repositorio contiene mi portafolio profesional como **Full Stack Java Devel
 
 ##  Acceso al Sitio
 Puedes visitar el portafolio en vivo aquí:  
- **[Thttps://syrlev.github.io/Portafolio/]**
+ **[https://syrlev.github.io/Portafolio/]**
 
 ---
 
