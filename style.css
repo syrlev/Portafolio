@@ -1,0 +1,204 @@
+.contact-links-top {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.contact-link {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.contact-link:hover {
+    color: #4361ee;
+}
+body {
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a2d2ff;
+    background-image: url('imagenes/bdvrspnnio7d1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #1a1a1a;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px);
+    padding: 12px 25px;
+    border-radius: 50px;
+    max-width: fit-content;
+    margin: 0 auto 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #002855;
+    font-weight: 600;
+    font-size: 0.9em;
+    transition: color 0.2s;
+}
+
+.navbar a:hover {
+    color: #4361ee;
+}
+
+.btn-contacto {
+    background: #4361ee;
+    color: white !important;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 30px rgba(0, 119, 182, 0.1);
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-picture-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: white;
+    padding: 4px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    font-size: 2.5em;
+    color: #003049;
+    margin: 0;
+}
+
+.header-text p {
+    font-weight: bold;
+    color: #004d40;
+    margin-top: 5px;
+}
+
+section {
+    background: white; 
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #002855;
+    border-bottom: 2px solid #a2d2ff;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.skills-grid, .proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.proyecto-card {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #dee2e6;
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px);
+    border-color: #4361ee;
+}
+
+.proyecto-card h3 {
+    color: #003049;
+    margin: 0 0 10px 0;
+}
+
+.badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.badge {
+    padding: 6px 12px;
+    background: #e9ecef;
+    border-radius: 50px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #003049;
+}
+
+.proyecto-card a, .btn-estudio {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4361ee;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.proyecto-card a:hover, .btn-estudio:hover {
+    background: #002855;
+}
+
+.caso-estudio-destacado {
+    border: 2px solid #4361ee;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #002855;
+    font-size: 0.9em;
+}
+
+.text-center {
+    text-align: center;
+}
